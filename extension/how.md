@@ -47,4 +47,13 @@ And is hosted from that foldrer
 The release script builds a release into the `release` folder
 That zip in there is then uploaded to Twitch for hosted test/actual release
 
+# After release
+
 Then when done copy the `release` folder into `released` and rename to the version queued/released as
+
+And I'll generally
+
+> cp -r release released/${version}
+> cp -r develop/dev develop/${version}
+
+And git commit that to keep the dev and release builds around
