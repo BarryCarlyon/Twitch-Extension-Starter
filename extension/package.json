@@ -8,7 +8,7 @@
   },
   "keywords": [],
   "author": "",
-  "license": "ISC",
+  "license": "WTFPL",
   "description": "",
   "dependencies": {
     "chokidar": "^4.0.3",
